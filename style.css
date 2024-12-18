@@ -1,1 +1,59 @@
 /* Carlos Mercedes, 12/17/2024 */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap');
+
+html {
+    margin-left: 30cap;
+    margin-right: 30cap;
+    background-color: #54453B;
+}
+
+header {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    color: #ECE2CA;
+    font-size: 55px;
+    background-image: url("/assets/header2.jpg");
+    width: 1200px;
+    height: 589px;
+    background-repeat: no-repeat
+}
+
+body {
+        background-color: #BCBD8B;
+        font-family: "Nunito", serif;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+th, td {
+    border:1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: 4CAF50;
+    color: red;
+}
+
+footer {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    color: #ECE2CA;
+    font-size: 30px;
+    background-color: #373d20;
+    height: 25pc
+}
