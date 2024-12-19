@@ -26,11 +26,16 @@ header {
 }
 
 body {
-        background-color: #BCBD8B;
         font-family: "Nunito", serif;
         font-optical-sizing: auto;
         font-weight: auto;
         font-style: normal;
+}
+
+.shortstory {
+    border: #373d20 solid 2px;
+    height: 125px;
+    background-color: #ECE2CA;
 }
 
 table {
@@ -76,9 +81,7 @@ a {
   }
   
   .shortstoryimage {
-    max-width: 25%;
-    max-height:15%;
-    padding-right: 150px;
+    padding-right: 50px;
     float: left;
   }
   
