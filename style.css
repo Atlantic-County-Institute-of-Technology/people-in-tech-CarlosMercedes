@@ -6,7 +6,7 @@
 html {
     margin-left: 30cap;
     margin-right: 30cap;
-    background-color: #54453B;
+    background-image: url("/assets/Background_1_A.jpg")
 }
 
 header {
@@ -15,10 +15,13 @@ header {
     font-weight: auto;
     font-style: normal;
     color: #ECE2CA;
-    font-size: 55px;
-    background-image: url("/assets/header2.jpg");
-    width: 1200px;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
+    background-image: url("/assets/header3.jpg");
+    width: auto;
     height: 589px;
+    image-rendering: pixelated;
     background-repeat: no-repeat
 }
 
@@ -52,8 +55,35 @@ footer {
     font-optical-sizing: auto;
     font-weight: auto;
     font-style: normal;
+    text-align: center;
     color: #ECE2CA;
     font-size: 30px;
     background-color: #373d20;
-    height: 25pc
+    height: 25pc;
+    padding-top: 25px
 }
+
+a {
+    color: #BCBD8B;
+}
+
+.shortstory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .shortstoryimage {
+    max-width: 25%;
+    max-height:15%;
+    padding-right: 150px;
+    float: left;
+  }
+  
+  .shortstorytext {
+    font-size: 15px;
+    padding-left: 20px;
+    float: left;
+  }
